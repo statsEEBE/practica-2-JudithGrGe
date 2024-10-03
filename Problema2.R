@@ -29,9 +29,10 @@ R <- sqrt(Rsq)
 cor.test(x,y)
 
 
-# Alternativamente,
+# Alternativamente
 
 mod <- lm(y~x)
 summary(mod)
 
 y_pred2 <- predict(mod, data.frame(x=x))
+
